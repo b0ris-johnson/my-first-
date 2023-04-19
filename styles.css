@@ -1,0 +1,95 @@
+
+body{
+    background-color: coral;
+    background-image: url(images/coffee\ escape\ room.PNG );
+    background-repeat: no-repeat;
+    background-size: 2750px;
+}
+
+header {
+
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+.boxl{
+    text-align: left;
+    width: 20%;
+    height: 715px;
+    background-color:rgb(255, 166, 0);
+    float:left;
+    padding-left: 1%;
+    padding-right: 1%;
+    outline: solid;
+ 
+}
+
+
+.boxm{
+    text-align: left;
+    width: 20%;
+    height: 715px;
+    background-color:rgb(255, 89, 0);
+    float:left;
+    padding-left: 1%;
+    padding-right: 1%;
+    outline: solid;
+}
+
+.boxr{
+    text-align: left;
+    width: 20%;
+    height: 715px;
+    background-color:rgb(255, 0, 0);
+    float:left;
+    padding-left: 1%;
+    padding-right: 1%;
+    outline: solid;
+}
+
+footer{
+    background-color:rgb(98, 0, 0);
+    width:90%;
+    height: 715px;
+    padding-left: 1%; 
+    padding-right: 1%;
+    outline: solid;
+
+}
+
+
+nav{
+    background-color: rgb(0, 0, 0);
+    width: 90%; 
+    
+    height: 50px;    margin-left: 5%; /*the space to the left*/
+
+    margin-top: 5%; /*the space to the box*/
+}
+ul{
+    list-style: none;/*removes the bulelts*/
+}
+
+li{
+    float: left; /*makes the links go next to each other*/
+}
+li a{
+ display: block;/*takes up the whole width*/
+ color: white;/*colours the text*/
+ font-size: 30px;/*size of the text*/
+ text-align: center;/*adds space above the links*/
+text-decoration: none;/*removes the underline*/
+padding-top: 5px;/*adds space above the links*/
+padding-left: 20px;/*adds space between the links*/
+}
+
+li a:hover {
+    color: olivedrab; /*chages text colour on hover*/
+
+}
+main{
+    width: 90%;
+    margin-left: 10%;
+}
